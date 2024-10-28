@@ -1,0 +1,3 @@
+[submodule "gbase"]
+	path = gbase
+	url = https://github.com/ImproperDecoherence/gbase.git
