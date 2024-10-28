@@ -81,7 +81,7 @@ enum class GScaleType {
 extern const GDictionary<GScaleType, GScaleTemplate> ScaleTemplates;
 
 /**
- * @brief Represents a scale.
+ * @brief Represents a musical scale.
  */
 class GScale {
   public:
