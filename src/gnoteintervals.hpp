@@ -30,6 +30,11 @@ namespace gmtheory {
 using NoteValue = gbase::Integer;
 
 /**
+ * @brief Note intervals are represented as number of semitone steps.
+ */
+using NoteInterval = gbase::Integer;
+
+/**
  * @brief Note names are represented by strings, e.g. 'C', 'Db', etc. The octave of a note can be indicated as
  * a postfix, e.g. 'C0', 'C1', etc.
  */
@@ -45,61 +50,61 @@ using NoteNames = gbase::GVector<NoteName>;
 namespace NI {
 
 // Tone interval definitions
-constexpr NoteValue PerfectUnison = 0;
-constexpr NoteValue Root = 0;
-constexpr NoteValue Tonic = 0;
-constexpr NoteValue SemiTone = 1;
-constexpr NoteValue Tone = 2 * SemiTone;
-constexpr NoteValue minor2nd = 1 * SemiTone;
-constexpr NoteValue Major2nd = 2 * SemiTone;
-constexpr NoteValue minor3rd = 3 * SemiTone;
-constexpr NoteValue Major3rd = 4 * SemiTone;
-constexpr NoteValue Perfect4th = 5 * SemiTone;
-constexpr NoteValue Diminished5th = 6 * SemiTone;
-constexpr NoteValue Augmented4th = 6 * SemiTone;
-constexpr NoteValue TriTone = 6 * SemiTone;
-constexpr NoteValue Perferct5th = 7 * SemiTone;
-constexpr NoteValue Augmented5th = 8 * SemiTone;
-constexpr NoteValue minor6th = 8 * SemiTone;
-constexpr NoteValue Major6th = 9 * SemiTone;
-constexpr NoteValue minor7th = 10 * SemiTone;
-constexpr NoteValue Major7th = 11 * SemiTone;
-constexpr NoteValue PerfectOctave = 12 * SemiTone;
-constexpr NoteValue minor9th = 13 * SemiTone;
-constexpr NoteValue Major9th = 14 * SemiTone;
-constexpr NoteValue Perfect11th = 17 * SemiTone;
-constexpr NoteValue Major13th = 21 * SemiTone;
-constexpr NoteValue Octave = PerfectOctave;
+constexpr NoteInterval PerfectUnison = 0;
+constexpr NoteInterval Root = 0;
+constexpr NoteInterval Tonic = 0;
+constexpr NoteInterval SemiTone = 1;
+constexpr NoteInterval Tone = 2 * SemiTone;
+constexpr NoteInterval minor2nd = 1 * SemiTone;
+constexpr NoteInterval Major2nd = 2 * SemiTone;
+constexpr NoteInterval minor3rd = 3 * SemiTone;
+constexpr NoteInterval Major3rd = 4 * SemiTone;
+constexpr NoteInterval Perfect4th = 5 * SemiTone;
+constexpr NoteInterval Diminished5th = 6 * SemiTone;
+constexpr NoteInterval Augmented4th = 6 * SemiTone;
+constexpr NoteInterval TriTone = 6 * SemiTone;
+constexpr NoteInterval Perferct5th = 7 * SemiTone;
+constexpr NoteInterval Augmented5th = 8 * SemiTone;
+constexpr NoteInterval minor6th = 8 * SemiTone;
+constexpr NoteInterval Major6th = 9 * SemiTone;
+constexpr NoteInterval minor7th = 10 * SemiTone;
+constexpr NoteInterval Major7th = 11 * SemiTone;
+constexpr NoteInterval PerfectOctave = 12 * SemiTone;
+constexpr NoteInterval minor9th = 13 * SemiTone;
+constexpr NoteInterval Major9th = 14 * SemiTone;
+constexpr NoteInterval Perfect11th = 17 * SemiTone;
+constexpr NoteInterval Major13th = 21 * SemiTone;
+constexpr NoteInterval Octave = PerfectOctave;
 
 // Abbrevations
-constexpr NoteValue P1 = PerfectUnison;
-constexpr NoteValue R = Root;
-constexpr NoteValue m2 = minor2nd;
-constexpr NoteValue M2 = Major2nd;
-constexpr NoteValue m3 = minor3rd;
-constexpr NoteValue M3 = Major3rd;
-constexpr NoteValue P4 = Perfect4th;
-constexpr NoteValue dim5 = Diminished5th;
-constexpr NoteValue Aug4 = Augmented4th;
-constexpr NoteValue T = TriTone;
-constexpr NoteValue P5 = Perferct5th;
-constexpr NoteValue Aug5 = Augmented5th;
-constexpr NoteValue m6 = minor6th;
-constexpr NoteValue M6 = Major6th;
-constexpr NoteValue m7 = minor7th;
-constexpr NoteValue M7 = Major7th;
-constexpr NoteValue P8 = PerfectOctave;
-constexpr NoteValue m9 = minor9th;
-constexpr NoteValue M9 = Major9th;
-constexpr NoteValue P11 = Perfect11th;
-constexpr NoteValue M13 = Major13th;
-constexpr NoteValue O = Octave;
+constexpr NoteInterval P1 = PerfectUnison;
+constexpr NoteInterval R = Root;
+constexpr NoteInterval m2 = minor2nd;
+constexpr NoteInterval M2 = Major2nd;
+constexpr NoteInterval m3 = minor3rd;
+constexpr NoteInterval M3 = Major3rd;
+constexpr NoteInterval P4 = Perfect4th;
+constexpr NoteInterval dim5 = Diminished5th;
+constexpr NoteInterval Aug4 = Augmented4th;
+constexpr NoteInterval T = TriTone;
+constexpr NoteInterval P5 = Perferct5th;
+constexpr NoteInterval Aug5 = Augmented5th;
+constexpr NoteInterval m6 = minor6th;
+constexpr NoteInterval M6 = Major6th;
+constexpr NoteInterval m7 = minor7th;
+constexpr NoteInterval M7 = Major7th;
+constexpr NoteInterval P8 = PerfectOctave;
+constexpr NoteInterval m9 = minor9th;
+constexpr NoteInterval M9 = Major9th;
+constexpr NoteInterval P11 = Perfect11th;
+constexpr NoteInterval M13 = Major13th;
+constexpr NoteInterval O = Octave;
 } // namespace NI
 
 /**
  * @brief Dictionary containing the short names for different note intervals, e.g "m3" for Major3rd.
  */
-extern const gbase::GDictionary<NoteValue, NoteName> NoteIntervalShortNames;
+extern const gbase::GDictionary<NoteInterval, NoteName> NoteIntervalShortNames;
 
 /**
  * @brief Transform to be used with ranges to normalize a range of note values to values within octave 0.

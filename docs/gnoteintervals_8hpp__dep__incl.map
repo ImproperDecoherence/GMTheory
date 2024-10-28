@@ -1,0 +1,41 @@
+<map id="src/gnoteintervals.hpp" name="src/gnoteintervals.hpp">
+<area shape="rect" id="Node000001" title="Defines the most basic relations of music theory." alt="" coords="261,5,411,32"/>
+<area shape="rect" id="Node000002" href="$gchordmodifiers_8cpp.html" title=" " alt="" coords="144,304,304,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="303,43,260,74,212,117,167,169,148,199,135,230,131,243,134,255,145,270,159,282,191,301,188,306,156,287,141,273,130,257,126,243,129,228,144,196,162,166,208,113,257,70,300,39"/>
+<area shape="rect" id="Node000003" href="$gchordmodifiers_8hpp.html" title="Defines the different modifiers which can be applied to a chord." alt="" coords="144,229,304,256"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="309,44,273,82,252,121,239,162,228,229,222,228,234,161,247,118,269,78,305,40"/>
+<area shape="rect" id="Node000007" href="$gchords_8cpp.html" title=" " alt="" coords="560,379,674,405"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="427,26,493,40,527,52,558,66,585,85,607,107,621,135,627,166,627,244,621,378,616,378,621,244,621,167,616,136,603,110,582,89,555,71,525,57,492,46,426,31"/>
+<area shape="rect" id="Node000009" href="$gscales_8hpp.html" title="Defines the GScale class and available scales." alt="" coords="174,379,287,405"/>
+<area shape="poly" id="edge25_Node000001_Node000009" title=" " alt="" coords="246,25,167,36,127,47,90,61,57,79,31,103,14,131,8,167,8,244,12,271,24,295,43,316,66,333,120,360,175,377,173,382,118,365,63,338,39,320,20,298,7,273,3,244,3,166,9,130,27,99,54,75,88,56,126,42,166,31,245,20"/>
+<area shape="rect" id="Node000010" href="$gnoteintervals_8cpp.html" title=" " alt="" coords="661,80,811,107"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="422,33,666,77,665,82,421,38"/>
+<area shape="rect" id="Node000011" href="$gnotes_8cpp.html" title=" " alt="" coords="473,155,580,181"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="366,40,512,152,509,156,363,44"/>
+<area shape="rect" id="Node000012" href="$gnotes_8hpp.html" title="Defines note names and basic operations on note values and note names." alt="" coords="282,80,390,107"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="339,48,339,80,333,80,333,48"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="227,272,227,304,221,304,221,272"/>
+<area shape="rect" id="Node000004" href="$gchords_8hpp.html" title="Defines the GChord class and available chord types." alt="" coords="379,304,493,331"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="276,259,400,301,398,306,274,264"/>
+<area shape="rect" id="Node000005" href="$gchorddatabase_8hpp.html" title="Defines the GChordDatabase class." alt="" coords="362,379,523,405"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="441,346,444,378,439,379,436,347"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="483,334,586,376,585,381,481,339"/>
+<area shape="rect" id="Node000008" href="$gscales_8cpp.html" title=" " alt="" coords="199,453,313,480"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="405,342,352,381,270,455,267,451,349,377,402,338"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="387,339,268,381,266,376,385,334"/>
+<area shape="rect" id="Node000006" href="$gchorddatabase_8cpp.html" title=" " alt="" coords="362,453,523,480"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="445,421,445,453,440,453,440,421"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="243,419,254,452,249,454,238,421"/>
+<area shape="poly" id="edge15_Node000012_Node000003" title=" " alt="" coords="305,118,283,135,263,156,242,195,230,230,225,228,237,193,259,153,279,132,301,114"/>
+<area shape="poly" id="edge24_Node000012_Node000009" title=" " alt="" coords="284,115,244,133,202,158,164,191,134,231,123,257,119,280,122,303,134,329,146,345,160,357,194,376,191,380,157,362,142,348,130,332,117,305,113,280,118,256,130,228,160,187,199,154,242,129,282,110"/>
+<area shape="poly" id="edge23_Node000012_Node000011" title=" " alt="" coords="384,110,494,152,492,157,383,115"/>
+<area shape="rect" id="Node000013" href="$gchordtemplate_8hpp.html" title="Defines the class GChordTemplate." alt="" coords="429,229,587,256"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="366,115,412,153,496,227,493,231,409,157,362,119"/>
+<area shape="rect" id="Node000014" href="$gharmony_8hpp.html" title="Defines the GHarmony class." alt="" coords="274,155,398,181"/>
+<area shape="poly" id="edge18_Node000012_Node000014" title=" " alt="" coords="339,122,339,154,333,154,333,122"/>
+<area shape="poly" id="edge17_Node000013_Node000004" title=" " alt="" coords="487,269,450,305,447,302,483,265"/>
+<area shape="poly" id="edge19_Node000014_Node000003" title=" " alt="" coords="305,192,245,231,242,226,302,188"/>
+<area shape="poly" id="edge20_Node000014_Node000004" title=" " alt="" coords="355,193,430,302,425,305,351,196"/>
+<area shape="poly" id="edge22_Node000014_Node000009" title=" " alt="" coords="342,197,340,261,333,298,318,332,292,361,261,380,258,376,289,357,314,329,328,296,335,260,336,197"/>
+<area shape="poly" id="edge21_Node000014_Node000013" title=" " alt="" coords="381,185,479,226,477,231,379,190"/>
+</map>

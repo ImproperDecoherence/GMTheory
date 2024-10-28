@@ -1,0 +1,5 @@
+<map id="gmtheory::GChord" name="gmtheory::GChord">
+<area shape="rect" id="Node000001" title="Represents a chord which can be modified by applying modifiers and inversion." alt="" coords="42,139,162,421"/>
+<area shape="rect" id="Node000002" href="$classgmtheory_1_1_g_chord_1_1_notification.html" title=" " alt="" coords="5,5,199,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,74,105,122,99,122,99,74"/>
+</map>

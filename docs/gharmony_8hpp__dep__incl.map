@@ -1,0 +1,25 @@
+<map id="src/gharmony.hpp" name="src/gharmony.hpp">
+<area shape="rect" id="Node000001" title="Defines the GHarmony class." alt="" coords="199,5,324,32"/>
+<area shape="rect" id="Node000002" href="$gchordmodifiers_8hpp.html" title="Defines the different modifiers which can be applied to a chord." alt="" coords="7,80,167,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,41,119,82,116,77,216,36"/>
+<area shape="rect" id="Node000004" href="$gchords_8hpp.html" title="Defines the GChord class and available chord types." alt="" coords="190,155,304,181"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="247,47,232,81,230,100,233,120,243,153,238,155,227,121,225,100,227,79,242,44"/>
+<area shape="rect" id="Node000009" href="$gscales_8hpp.html" title="Defines the GScale class and available scales." alt="" coords="380,229,493,256"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="340,32,379,50,397,63,413,78,425,97,433,117,442,160,443,199,441,229,435,229,438,199,437,160,428,119,420,99,409,82,394,67,377,54,338,37"/>
+<area shape="rect" id="Node000010" href="$gchordtemplate_8hpp.html" title="Defines the class GChordTemplate." alt="" coords="242,80,399,107"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="283,43,312,78,308,81,279,46"/>
+<area shape="rect" id="Node000003" href="$gchordmodifiers_8cpp.html" title=" " alt="" coords="5,155,166,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,123,88,154,83,154,84,122"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="130,111,220,152,218,156,128,116"/>
+<area shape="rect" id="Node000005" href="$gchorddatabase_8hpp.html" title="Defines the GChordDatabase class." alt="" coords="5,229,166,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="206,190,115,231,113,226,204,186"/>
+<area shape="rect" id="Node000007" href="$gchords_8cpp.html" title=" " alt="" coords="190,229,304,256"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="250,197,250,229,244,229,244,197"/>
+<area shape="rect" id="Node000008" href="$gscales_8cpp.html" title=" " alt="" coords="332,304,445,331"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="276,190,318,227,381,302,377,305,314,231,273,193"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="295,185,404,226,402,231,293,190"/>
+<area shape="rect" id="Node000006" href="$gchorddatabase_8cpp.html" title=" " alt="" coords="5,304,166,331"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="88,272,88,304,83,304,83,272"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="422,271,399,305,394,302,417,268"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="298,120,261,156,258,152,295,116"/>
+</map>

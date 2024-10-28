@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['o_0',['O',['../namespacegmtheory_1_1_n_i.html#a4c72984eaa8eaaa13fc0a8d769b5079b',1,'gmtheory::NI']]],
+  ['octave_1',['Octave',['../namespacegmtheory_1_1_n_i.html#afde4fc3b2293203dd5b48a0c6d1c454b',1,'gmtheory::NI']]],
+  ['octaves_2',['Octaves',['../namespacegmtheory.html#a7238bfdb4dbb6b287f84f5421b2ce58c',1,'gmtheory']]],
+  ['octavetransposition_3',['octaveTransposition',['../namespacegmtheory.html#a234b6ac1086162ff69c22ef7e927e70a',1,'gmtheory']]],
+  ['of_20gmtheory_4',['The Current State of GMTheory',['../index.html#autotoc_md1',1,'']]],
+  ['operator_21_3d_5',['operator!=',['../classgmtheory_1_1_g_chord.html#a4afd0d3af901aa4d18f825025b00bddd',1,'gmtheory::GChord::operator!=()'],['../classgmtheory_1_1_g_chord_template.html#a4e340967693e6f0669c287a05d5a27fb',1,'gmtheory::GChordTemplate::operator!=()']]],
+  ['operator_2b_6',['operator+',['../namespacegmtheory.html#af688f64c2f2a5e2946525749eaa421db',1,'gmtheory::operator+(const GHarmony &amp;harmony, NoteValue value)'],['../namespacegmtheory.html#a4fc242048456e60454c470822e13e170',1,'gmtheory::operator+(const GHarmony &amp;lhs, const GHarmony &amp;rhs)'],['../namespacegmtheory.html#a3e56748c9b680c4cf091500508c0b8af',1,'gmtheory::operator+(const GHarmony &amp;set, const Range &amp;range)']]],
+  ['operator_2d_7',['operator-',['../namespacegmtheory.html#a67f8f02e55228d15c300724f5f8cf090',1,'gmtheory::operator-(const GHarmony &amp;harmony, NoteValue value)'],['../namespacegmtheory.html#a92e66d4906cddbcbd302869932cf87db',1,'gmtheory::operator-(const GHarmony &amp;lhs, const GHarmony &amp;rhs)'],['../namespacegmtheory.html#a495785a711f7d584367b24a1f16c4eeb',1,'gmtheory::operator-(const GHarmony &amp;set, const Range &amp;range)']]],
+  ['operator_3c_3c_8',['operator&lt;&lt;',['../namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03',1,'gmtheory::operator&lt;&lt;(std::ostream &amp;os, const GChordDatabase &amp;db)'],['../namespacegmtheory.html#a2a775881bab88c1996864415f467c6ce',1,'gmtheory::operator&lt;&lt;(std::ostream &amp;s, const GChord &amp;chord)'],['../namespacegmtheory.html#aef1725614d610cab4e32b1d17e63fd36',1,'gmtheory::operator&lt;&lt;(std::ostream &amp;s, const NoteNameStyle &amp;nns)']]],
+  ['operator_3c_3d_3e_9',['operator&lt;=&gt;',['../classgmtheory_1_1_g_chord.html#a5a84c10663260662212c4cd0e5bfebd2',1,'gmtheory::GChord::operator&lt;=&gt;()'],['../classgmtheory_1_1_g_chord_template.html#a4d8cbd31073115df9c42796509815128',1,'gmtheory::GChordTemplate::operator&lt;=&gt;()']]],
+  ['operator_3d_10',['operator=',['../classgmtheory_1_1_g_chord.html#a233d3d99d33cb920b2554adcab657067',1,'gmtheory::GChord::operator=(const GChord &amp;)=default'],['../classgmtheory_1_1_g_chord.html#a6456803acf76f4aabdc41c91baf9d54e',1,'gmtheory::GChord::operator=(GChord &amp;&amp;)=default']]],
+  ['operator_3d_3d_11',['operator==',['../classgmtheory_1_1_g_chord.html#a4e8df88fb62d2940d9fd16fdcb2a18bb',1,'gmtheory::GChord::operator==()'],['../classgmtheory_1_1_g_chord_template.html#a71741e54c12e9d725d3d2a59d0512ec2',1,'gmtheory::GChordTemplate::operator==()']]]
+];
