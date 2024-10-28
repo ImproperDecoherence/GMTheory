@@ -1,3 +1,6 @@
-[submodule "gbase"]
-	path = gbase
-	url = https://github.com/ImproperDecoherence/gbase.git
+[submodule "subprojects/gbase"]
+	path = subprojects/gbase
+	url = https://github.com/ImproperDecoherence/gbase
+[submodule "subprojects/gtest"]
+	path = subprojects/gtest
+	url = https://github.com/ImproperDecoherence/gtest
