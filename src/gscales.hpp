@@ -88,8 +88,15 @@ class GScale {
     /**
      * @brief Constructs a new GScale object.
      *
+     * @tparam Note A gmtheory::NoteValue or gmtheory::NoteName.
      * @param tonic The tonic note value OR note name of the scale.
      * @param scaleType Scale type identifier.
+     *
+     * Example usage:
+     * @code
+     * const GScale scaleDdorian{NoteName("D"), GScaleType::Dorian};
+     * @endcode
+     *
      */
     template <typename Note>
     GScale(Note tonic, GScaleType scaleType)

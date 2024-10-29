@@ -95,9 +95,18 @@ class GChord {
     /**
      * @brief Constructs a new GChord object.
      *
+     * @tparam Note A gmtheory::NoteValue or a gmtheory::NoteName.
+     * @tparam Mods A gmtheory::GModFlag or gmtheory::GChordModFlags.
      * @param tonic The note name OR note value of the chords tonic note.
      * @param chordType The chord type, e.g. GChordType::Major.
      * @param modFlags Modifiers for the chord as a GModFlag OR a GChordModFlags vector.
+     *
+     * Example usage:
+     * @code
+     * const GChord chordBdim{NoteName("B"), GChordType::Diminished, CMF::NoFlag};
+     * const GChord chordC7Add2{NoteName("C"), GChordType::Major, CMF::Dominant7 | CMF::Add2};
+     * @endcode
+     *
      */
     template <typename Note, typename Mods>
     GChord(const Note &tonic, const GChordType &chordType, const Mods &modFlags)

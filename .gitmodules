@@ -4,3 +4,6 @@
 [submodule "subprojects/gtest"]
 	path = subprojects/gtest
 	url = https://github.com/ImproperDecoherence/gtest
+[submodule "subprojects/doxygen-awesome-css"]
+	path = subprojects/doxygen-awesome-css
+	url = https://github.com/jothepro/doxygen-awesome-css

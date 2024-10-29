@@ -17,6 +17,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -281,12 +282,16 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4f51f2345fb997538a1cdff6fdae3721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the C-note base value for given note values.  <br /></td></tr>
 <tr class="separator:a4f51f2345fb997538a1cdff6fdae3721"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2ed0e72de07c931d6d89d5813970d9" id="r_aab2ed0e72de07c931d6d89d5813970d9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegmtheory.html#aab2ed0e72de07c931d6d89d5813970d9">gmtheory::rebaseNoteValue</a> (<a class="el" href="namespacegmtheory.html#aa376af897ba89c1f7f5a657fb39ffd29">NoteValue</a> targetBaseNoteValue, <a class="el" href="namespacegmtheory.html#aa376af897ba89c1f7f5a657fb39ffd29">NoteValue</a> currentBaseNoteValue)</td></tr>
-<tr class="memdesc:aab2ed0e72de07c931d6d89d5813970d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Example usage:  <br /></td></tr>
+<tr class="memdesc:aab2ed0e72de07c931d6d89d5813970d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform for rebasing a range of note values.  <br /></td></tr>
 <tr class="separator:aab2ed0e72de07c931d6d89d5813970d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86a4b704cce7799af74d727bbf61994e" id="r_a86a4b704cce7799af74d727bbf61994e"><td class="memTemplParams" colspan="2">template&lt;RangeOfNoteValues Range&gt; </td></tr>
 <tr class="memitem:a86a4b704cce7799af74d727bbf61994e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegmtheory.html#a86a4b704cce7799af74d727bbf61994e">gmtheory::rebaseNoteValues</a> (const Range &amp;<a class="el" href="namespacegmtheory.html#a050765a84621e868d29fc6dfd5524f4e">noteValues</a>, <a class="el" href="namespacegmtheory.html#aa376af897ba89c1f7f5a657fb39ffd29">NoteValue</a> newBaseNoteValue)</td></tr>
 <tr class="memdesc:a86a4b704cce7799af74d727bbf61994e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebases a range of note values to a new base note.  <br /></td></tr>
 <tr class="separator:a86a4b704cce7799af74d727bbf61994e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc0c82d2213de89eea56e5cd94822ef" id="r_a1bc0c82d2213de89eea56e5cd94822ef"><td class="memTemplParams" colspan="2">template&lt;RangeOfRangeOfNoteValues RangeOfRange&gt; </td></tr>
+<tr class="memitem:a1bc0c82d2213de89eea56e5cd94822ef"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacegmtheory.html#a1bc0c82d2213de89eea56e5cd94822ef">gmtheory::rebaseNoteValues</a> (const RangeOfRange &amp;sequence, <a class="el" href="namespacegmtheory.html#aa376af897ba89c1f7f5a657fb39ffd29">NoteValue</a> newBaseNoteValue)</td></tr>
+<tr class="memdesc:a1bc0c82d2213de89eea56e5cd94822ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rebases a sequence of note value ranges.  <br /></td></tr>
+<tr class="separator:a1bc0c82d2213de89eea56e5cd94822ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>

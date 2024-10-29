@@ -17,6 +17,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -110,53 +111,53 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    Size <a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#ab2e8bcae86c385f2cca4e719d8424164">size</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keyword">template</span> &lt;RangeOfNoteValues Range&gt;</div>
-<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classgmtheory_1_1_g_chord_database.html#af45e4e148726d572ba732a84792e408f">   53</a></span>    <span class="keyword">constexpr</span> GSet&lt;GChord&gt; <a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#af45e4e148726d572ba732a84792e408f">match</a>(<span class="keyword">const</span> Range &amp;<a class="code hl_function" href="namespacegmtheory.html#a050765a84621e868d29fc6dfd5524f4e">noteValues</a>, Size distance)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        <span class="keyword">const</span> <a class="code hl_typedef" href="namespacegmtheory.html#a5dc6d24004b08e79064445f261a81774">Signature</a> inputSignature{<a class="code hl_function" href="namespacegmtheory.html#ae7e689a7ecda5c8081604695dc30787b">signature</a>(<a class="code hl_function" href="namespacegmtheory.html#a050765a84621e868d29fc6dfd5524f4e">noteValues</a>)};</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keyword">const</span> <span class="keyword">auto</span> signaturesToMatch{<a class="code hl_function" href="namespacegmtheory.html#a371f7f822747a9ab503f08b4b7831768">nearSignatures</a>(inputSignature, distance)};</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        GSet&lt;GChord&gt; result;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code hl_typedef" href="namespacegmtheory.html#a5dc6d24004b08e79064445f261a81774">Signature</a> sig : signaturesToMatch) {</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>            <span class="keywordflow">if</span> (data_.contains(sig)) {</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                result.extend(data_[sig]);</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            }</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        }</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordflow">return</span> result;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="keyword">template</span> &lt;RangeOfNoteValues Range&gt;</div>
+<div class="foldopen" id="foldopen00054" data-start="{" data-end="}">
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classgmtheory_1_1_g_chord_database.html#af45e4e148726d572ba732a84792e408f">   54</a></span>    <span class="keyword">constexpr</span> GSet&lt;GChord&gt; <a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#af45e4e148726d572ba732a84792e408f">match</a>(<span class="keyword">const</span> Range &amp;<a class="code hl_function" href="namespacegmtheory.html#a050765a84621e868d29fc6dfd5524f4e">noteValues</a>, Size distance)<span class="keyword"> const </span>{</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        <span class="keyword">const</span> <a class="code hl_typedef" href="namespacegmtheory.html#a5dc6d24004b08e79064445f261a81774">Signature</a> inputSignature{<a class="code hl_function" href="namespacegmtheory.html#ae7e689a7ecda5c8081604695dc30787b">signature</a>(<a class="code hl_function" href="namespacegmtheory.html#a050765a84621e868d29fc6dfd5524f4e">noteValues</a>)};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keyword">const</span> <span class="keyword">auto</span> signaturesToMatch{<a class="code hl_function" href="namespacegmtheory.html#a371f7f822747a9ab503f08b4b7831768">nearSignatures</a>(inputSignature, distance)};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        GSet&lt;GChord&gt; result;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordflow">for</span> (<span class="keyword">const</span> <a class="code hl_typedef" href="namespacegmtheory.html#a5dc6d24004b08e79064445f261a81774">Signature</a> sig : signaturesToMatch) {</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            <span class="keywordflow">if</span> (data_.contains(sig)) {</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>                result.extend(data_[sig]);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            }</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    }</div>
 </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#a5873b0ed87e5aaf78e6d164ead07ea4b">print</a>(ostream &amp;os) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <a class="code hl_class" href="classgmtheory_1_1_g_chord_database.html">GChordDatabase</a>();</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">void</span> addChord(<span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_chord.html">GChord</a> &amp;chord);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    GDictionary&lt;Signature, GSet&lt;GChord&gt;&gt; data_;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#a5873b0ed87e5aaf78e6d164ead07ea4b">print</a>(ostream &amp;os) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <a class="code hl_class" href="classgmtheory_1_1_g_chord_database.html">GChordDatabase</a>();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> addChord(<span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_chord.html">GChord</a> &amp;chord);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    GDictionary&lt;Signature, GSet&lt;GChord&gt;&gt; data_;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>};</div>
 </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
-<div class="foldopen" id="foldopen00077" data-start="{" data-end="}">
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03">   77</a></span><span class="keyword">constexpr</span> std::ostream &amp;<a class="code hl_function" href="namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03">operator&lt;&lt;</a>(std::ostream &amp;os, <span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_chord_database.html">GChordDatabase</a> &amp;db) {</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    db.<a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#a5873b0ed87e5aaf78e6d164ead07ea4b">print</a>(os);</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordflow">return</span> os;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>}</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="foldopen" id="foldopen00078" data-start="{" data-end="}">
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03">   78</a></span><span class="keyword">constexpr</span> std::ostream &amp;<a class="code hl_function" href="namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03">operator&lt;&lt;</a>(std::ostream &amp;os, <span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_chord_database.html">GChordDatabase</a> &amp;db) {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    db.<a class="code hl_function" href="classgmtheory_1_1_g_chord_database.html#a5873b0ed87e5aaf78e6d164ead07ea4b">print</a>(os);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordflow">return</span> os;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>}</div>
 </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>} <span class="comment">// namespace gmtheory</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>} <span class="comment">// namespace gmtheory</span></div>
 <div class="ttc" id="aclassgmtheory_1_1_g_chord_database_html"><div class="ttname"><a href="classgmtheory_1_1_g_chord_database.html">gmtheory::GChordDatabase</a></div><div class="ttdoc">Implements a chord database.</div><div class="ttdef"><b>Definition</b> gchorddatabase.hpp:31</div></div>
 <div class="ttc" id="aclassgmtheory_1_1_g_chord_database_html_a5873b0ed87e5aaf78e6d164ead07ea4b"><div class="ttname"><a href="classgmtheory_1_1_g_chord_database.html#a5873b0ed87e5aaf78e6d164ead07ea4b">gmtheory::GChordDatabase::print</a></div><div class="ttdeci">void print(ostream &amp;os) const</div><div class="ttdef"><b>Definition</b> gchorddatabase.cpp:74</div></div>
 <div class="ttc" id="aclassgmtheory_1_1_g_chord_database_html_a9561701c14c8be647fd30e2657c7c90e"><div class="ttname"><a href="classgmtheory_1_1_g_chord_database.html#a9561701c14c8be647fd30e2657c7c90e">gmtheory::GChordDatabase::getInstance</a></div><div class="ttdeci">static const GChordDatabase &amp; getInstance()</div><div class="ttdoc">Access handle to the singleton instance of the chord database.</div><div class="ttdef"><b>Definition</b> gchorddatabase.cpp:8</div></div>
 <div class="ttc" id="aclassgmtheory_1_1_g_chord_database_html_ab2e8bcae86c385f2cca4e719d8424164"><div class="ttname"><a href="classgmtheory_1_1_g_chord_database.html#ab2e8bcae86c385f2cca4e719d8424164">gmtheory::GChordDatabase::size</a></div><div class="ttdeci">Size size() const</div><div class="ttdoc">Returns the number of chords in the database.</div><div class="ttdef"><b>Definition</b> gchorddatabase.cpp:13</div></div>
-<div class="ttc" id="aclassgmtheory_1_1_g_chord_database_html_af45e4e148726d572ba732a84792e408f"><div class="ttname"><a href="classgmtheory_1_1_g_chord_database.html#af45e4e148726d572ba732a84792e408f">gmtheory::GChordDatabase::match</a></div><div class="ttdeci">constexpr GSet&lt; GChord &gt; match(const Range &amp;noteValues, Size distance) const</div><div class="ttdoc">Searches the database for chords that matches the provided range of notes.</div><div class="ttdef"><b>Definition</b> gchorddatabase.hpp:53</div></div>
+<div class="ttc" id="aclassgmtheory_1_1_g_chord_database_html_af45e4e148726d572ba732a84792e408f"><div class="ttname"><a href="classgmtheory_1_1_g_chord_database.html#af45e4e148726d572ba732a84792e408f">gmtheory::GChordDatabase::match</a></div><div class="ttdeci">constexpr GSet&lt; GChord &gt; match(const Range &amp;noteValues, Size distance) const</div><div class="ttdoc">Searches the database for chords that matches the provided range of notes.</div><div class="ttdef"><b>Definition</b> gchorddatabase.hpp:54</div></div>
 <div class="ttc" id="aclassgmtheory_1_1_g_chord_html"><div class="ttname"><a href="classgmtheory_1_1_g_chord.html">gmtheory::GChord</a></div><div class="ttdoc">Represents a chord which can be modified by applying modifiers and inversion.</div><div class="ttdef"><b>Definition</b> gchords.hpp:53</div></div>
 <div class="ttc" id="agchords_8hpp_html"><div class="ttname"><a href="gchords_8hpp.html">gchords.hpp</a></div><div class="ttdoc">Defines the GChord class and available chord types.</div></div>
 <div class="ttc" id="anamespacegmtheory_html"><div class="ttname"><a href="namespacegmtheory.html">gmtheory</a></div><div class="ttdef"><b>Definition</b> gchorddatabase.cpp:6</div></div>
 <div class="ttc" id="anamespacegmtheory_html_a050765a84621e868d29fc6dfd5524f4e"><div class="ttname"><a href="namespacegmtheory.html#a050765a84621e868d29fc6dfd5524f4e">gmtheory::noteValues</a></div><div class="ttdeci">constexpr auto noteValues(NoteValue firstNoteValue, gbase::Size numberNotes)</div><div class="ttdoc">Returns a view of sequential note values.</div><div class="ttdef"><b>Definition</b> gnotes.hpp:216</div></div>
 <div class="ttc" id="anamespacegmtheory_html_a371f7f822747a9ab503f08b4b7831768"><div class="ttname"><a href="namespacegmtheory.html#a371f7f822747a9ab503f08b4b7831768">gmtheory::nearSignatures</a></div><div class="ttdeci">GSet&lt; Signature &gt; nearSignatures(Signature signature, Integer distance)</div><div class="ttdef"><b>Definition</b> gnotes.cpp:10</div></div>
-<div class="ttc" id="anamespacegmtheory_html_a59a298f7a87cc0598837d0f49515fc03"><div class="ttname"><a href="namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03">gmtheory::operator&lt;&lt;</a></div><div class="ttdeci">constexpr std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const GChordDatabase &amp;db)</div><div class="ttdef"><b>Definition</b> gchorddatabase.hpp:77</div></div>
+<div class="ttc" id="anamespacegmtheory_html_a59a298f7a87cc0598837d0f49515fc03"><div class="ttname"><a href="namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03">gmtheory::operator&lt;&lt;</a></div><div class="ttdeci">constexpr std::ostream &amp; operator&lt;&lt;(std::ostream &amp;os, const GChordDatabase &amp;db)</div><div class="ttdef"><b>Definition</b> gchorddatabase.hpp:78</div></div>
 <div class="ttc" id="anamespacegmtheory_html_a5dc6d24004b08e79064445f261a81774"><div class="ttname"><a href="namespacegmtheory.html#a5dc6d24004b08e79064445f261a81774">gmtheory::Signature</a></div><div class="ttdeci">Unsigned Signature</div><div class="ttdoc">The Signature type represents an unique value for all possible normalized harmonies.</div><div class="ttdef"><b>Definition</b> gnotes.hpp:35</div></div>
 <div class="ttc" id="anamespacegmtheory_html_ae7e689a7ecda5c8081604695dc30787b"><div class="ttname"><a href="namespacegmtheory.html#ae7e689a7ecda5c8081604695dc30787b">gmtheory::signature</a></div><div class="ttdeci">constexpr Signature signature(const Range &amp;intervals)</div><div class="ttdoc">Calculates the Signature (see doc for the Signature type) for a given range of note values.</div><div class="ttdef"><b>Definition</b> gnotes.hpp:70</div></div>
 </div><!-- fragment --></div><!-- contents -->

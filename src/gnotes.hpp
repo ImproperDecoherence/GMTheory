@@ -315,7 +315,7 @@ template <RangeOfRangeOfNoteValues Range> constexpr NoteValue baseNoteValue(cons
 }
 
 /**
- * @brief
+ * @brief Transform for rebasing a range of note values.
  *
  * Example usage:
  * @code
@@ -327,7 +327,6 @@ template <RangeOfRangeOfNoteValues Range> constexpr NoteValue baseNoteValue(cons
  *
  * @param targetBaseNoteValue The new base note value - must be a C-note!
  * @param currentBaseNoteValue The current base note value - can be found with baseNoteValue();
- * @return constexpr auto
  */
 constexpr auto rebaseNoteValue(NoteValue targetBaseNoteValue, NoteValue currentBaseNoteValue) {
 
@@ -349,7 +348,6 @@ constexpr auto rebaseNoteValue(NoteValue targetBaseNoteValue, NoteValue currentB
  * @tparam Range
  * @param noteValues A range of note values.
  * @param newBaseNoteValue The new base note - must be a C-note!
- * @return requires constexpr
  */
 template <RangeOfNoteValues Range>
 constexpr auto rebaseNoteValues(const Range &noteValues, NoteValue newBaseNoteValue) {
@@ -364,10 +362,9 @@ constexpr auto rebaseNoteValues(const Range &noteValues, NoteValue newBaseNoteVa
  * @tparam RangeOfRange
  * @param sequence A range which contains ranges of note values.
  * @param newBaseNoteValue The new base note - must be a C-note!
- * @return requires&& constexpr
  */
-template <RangeOfRangeOfNoteValues Range>
-constexpr auto rebaseNoteValues(const Range &sequence, NoteValue newBaseNoteValue) {
+template <RangeOfRangeOfNoteValues RangeOfRange>
+constexpr auto rebaseNoteValues(const RangeOfRange &sequence, NoteValue newBaseNoteValue) {
 
     GVector<NoteValues> result;
 

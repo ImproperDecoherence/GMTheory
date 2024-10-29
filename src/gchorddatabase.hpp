@@ -45,6 +45,7 @@ class GChordDatabase {
     /**
      * @brief Searches the database for chords that matches the provided range of notes.
      *
+     * @tparam Range A vector, set, range or view of gmtheory::NoteValue:s.
      * @param noteValues Provided notes.
      * @param distance When distance = 0, an exact match is required. When the distance = 1, one note may
      * differ from the provided notes and the returned chord, etc.

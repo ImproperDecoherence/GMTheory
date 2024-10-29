@@ -17,6 +17,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -284,15 +285,31 @@ template&lt;typename Note , typename Mods &gt; </div>
 </div><div class="memdoc">
 
 <p>Constructs a new <a class="el" href="classgmtheory_1_1_g_chord.html" title="Represents a chord which can be modified by applying modifiers and inversion.">GChord</a> object. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Note</td><td>A <a class="el" href="namespacegmtheory.html#aa376af897ba89c1f7f5a657fb39ffd29" title="Notes are represented by note values which can have values from 0 and ascending. Value 0 corresponds ...">gmtheory::NoteValue</a> or a <a class="el" href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733" title="Note names are represented by strings, e.g. &#39;C&#39;, &#39;Db&#39;, etc. The octave of a note can be indicated as ...">gmtheory::NoteName</a>. </td></tr>
+    <tr><td class="paramname">Mods</td><td>A <a class="el" href="namespacegmtheory.html#a9d5a9994dceaa458dc104270805867b9" title="Code that represents zero, one or several chord modifications. Each binary 1 represents a specific ch...">gmtheory::GModFlag</a> or <a class="el" href="namespacegmtheory.html#ac6aa9b1d5db177f3148d12ebb182e991" title="A set of chord modifier flags.">gmtheory::GChordModFlags</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tonic</td><td>The note name OR note value of the chords tonic note. </td></tr>
     <tr><td class="paramname">chordType</td><td>The chord type, e.g. <a class="el" href="namespacegmtheory.html#a986ff37371b1cce4f39e552e8c998e78a3b329734e45b57e60f3df64c2cf412a9">GChordType::Major</a>. </td></tr>
-    <tr><td class="paramname">modFlags</td><td>Modifiers for the chord as a GModFlag OR a GChordModFlags vector. </td></tr>
+    <tr><td class="paramname">modFlags</td><td>Modifiers for the chord as a GModFlag OR a GChordModFlags vector.</td></tr>
   </table>
   </dd>
 </dl>
-
+<p>Example usage: </p><div class="fragment"><div class="line"><span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_chord.html">GChord</a> chordBdim{<a class="code hl_typedef" href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733">NoteName</a>(<span class="stringliteral">&quot;B&quot;</span>), <a class="code hl_enumvalue" href="namespacegmtheory.html#a986ff37371b1cce4f39e552e8c998e78a539ef79c5675bdcd6fead7bc93643d98">GChordType::Diminished</a>, <a class="code hl_variable" href="namespacegmtheory_1_1_c_m_f.html#a9fdf8d943964dda305322c6bd45e51dd">CMF::NoFlag</a>};</div>
+<div class="line"><span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_chord.html">GChord</a> chordC7Add2{<a class="code hl_typedef" href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733">NoteName</a>(<span class="stringliteral">&quot;C&quot;</span>), <a class="code hl_enumvalue" href="namespacegmtheory.html#a986ff37371b1cce4f39e552e8c998e78a3b329734e45b57e60f3df64c2cf412a9">GChordType::Major</a>, <a class="code hl_variable" href="namespacegmtheory_1_1_c_m_f.html#ad08610794d00a561292b60b938247d48">CMF::Dominant7</a> | <a class="code hl_variable" href="namespacegmtheory_1_1_c_m_f.html#af9abb9c0c2678ac60fcd806341b7788a">CMF::Add2</a>};</div>
+<div class="ttc" id="aclassgmtheory_1_1_g_chord_html"><div class="ttname"><a href="classgmtheory_1_1_g_chord.html">gmtheory::GChord</a></div><div class="ttdoc">Represents a chord which can be modified by applying modifiers and inversion.</div><div class="ttdef"><b>Definition</b> gchords.hpp:53</div></div>
+<div class="ttc" id="anamespacegmtheory_1_1_c_m_f_html_a9fdf8d943964dda305322c6bd45e51dd"><div class="ttname"><a href="namespacegmtheory_1_1_c_m_f.html#a9fdf8d943964dda305322c6bd45e51dd">gmtheory::CMF::NoFlag</a></div><div class="ttdeci">constexpr GModFlag NoFlag</div><div class="ttdef"><b>Definition</b> gchordmodifiers.hpp:43</div></div>
+<div class="ttc" id="anamespacegmtheory_1_1_c_m_f_html_ad08610794d00a561292b60b938247d48"><div class="ttname"><a href="namespacegmtheory_1_1_c_m_f.html#ad08610794d00a561292b60b938247d48">gmtheory::CMF::Dominant7</a></div><div class="ttdeci">constexpr GModFlag Dominant7</div><div class="ttdef"><b>Definition</b> gchordmodifiers.hpp:44</div></div>
+<div class="ttc" id="anamespacegmtheory_1_1_c_m_f_html_af9abb9c0c2678ac60fcd806341b7788a"><div class="ttname"><a href="namespacegmtheory_1_1_c_m_f.html#af9abb9c0c2678ac60fcd806341b7788a">gmtheory::CMF::Add2</a></div><div class="ttdeci">constexpr GModFlag Add2</div><div class="ttdef"><b>Definition</b> gchordmodifiers.hpp:49</div></div>
+<div class="ttc" id="anamespacegmtheory_html_a746c4462e5f24fdf21d1d56e0d30f733"><div class="ttname"><a href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733">gmtheory::NoteName</a></div><div class="ttdeci">gbase::String NoteName</div><div class="ttdoc">Note names are represented by strings, e.g. 'C', 'Db', etc. The octave of a note can be indicated as ...</div><div class="ttdef"><b>Definition</b> gnoteintervals.hpp:41</div></div>
+<div class="ttc" id="anamespacegmtheory_html_a986ff37371b1cce4f39e552e8c998e78a3b329734e45b57e60f3df64c2cf412a9"><div class="ttname"><a href="namespacegmtheory.html#a986ff37371b1cce4f39e552e8c998e78a3b329734e45b57e60f3df64c2cf412a9">gmtheory::GChordType::Major</a></div><div class="ttdeci">@ Major</div></div>
+<div class="ttc" id="anamespacegmtheory_html_a986ff37371b1cce4f39e552e8c998e78a539ef79c5675bdcd6fead7bc93643d98"><div class="ttname"><a href="namespacegmtheory.html#a986ff37371b1cce4f39e552e8c998e78a539ef79c5675bdcd6fead7bc93643d98">gmtheory::GChordType::Diminished</a></div><div class="ttdeci">@ Diminished</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="ace8b3975a88965b552b696562ed61171" name="ace8b3975a88965b552b696562ed61171"></a>
