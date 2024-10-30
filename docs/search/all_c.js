@@ -1,16 +1,15 @@
 var searchData=
 [
-  ['p1_0',['P1',['../namespacegmtheory_1_1_n_i.html#a6f17f82252906e510412be6d88653123',1,'gmtheory::NI']]],
-  ['p11_1',['P11',['../namespacegmtheory_1_1_n_i.html#a998c067beaac5c9d50e30d7948b2e0a1',1,'gmtheory::NI']]],
-  ['p4_2',['P4',['../namespacegmtheory_1_1_n_i.html#ab643f4f9d6d002d3abbfbe1dfd29c225',1,'gmtheory::NI']]],
-  ['p5_3',['P5',['../namespacegmtheory_1_1_n_i.html#a461c74c526df8fa19802767009fa9a56',1,'gmtheory::NI']]],
-  ['p8_4',['P8',['../namespacegmtheory_1_1_n_i.html#aeae22438836d42e552f90a0208145742',1,'gmtheory::NI']]],
-  ['perfect11th_5',['Perfect11th',['../namespacegmtheory_1_1_n_i.html#ad2cda3cd8cd4f469311a7925b6d8fe1f',1,'gmtheory::NI']]],
-  ['perfect4th_6',['Perfect4th',['../namespacegmtheory_1_1_n_i.html#a3c736f4e7cba70f7b0bb5bbc758eccb8',1,'gmtheory::NI']]],
-  ['perfectoctave_7',['PerfectOctave',['../namespacegmtheory_1_1_n_i.html#aa3567ddf43eb1b781c94b46a67b13c54',1,'gmtheory::NI']]],
-  ['perfectunison_8',['PerfectUnison',['../namespacegmtheory_1_1_n_i.html#a88a527d39e254b402e6801d1c8cb7613',1,'gmtheory::NI']]],
-  ['perferct5th_9',['Perferct5th',['../namespacegmtheory_1_1_n_i.html#acf46459588a1afe4f9fe4952c1fd78c8',1,'gmtheory::NI']]],
-  ['phrygian_10',['Phrygian',['../namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0a805db0fe201d84ac80b9572cb7d262ea',1,'gmtheory']]],
-  ['phrygiandominant_11',['PhrygianDominant',['../namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0a4d75d9cd6b1dd503253ec36e0da795e0',1,'gmtheory']]],
-  ['print_12',['print',['../classgmtheory_1_1_g_chord_database.html#a5873b0ed87e5aaf78e6d164ead07ea4b',1,'gmtheory::GChordDatabase::print()'],['../classgmtheory_1_1_g_chord.html#ad579f739105628520d35339564084667',1,'gmtheory::GChord::print()']]]
+  ['o_0',['O',['../namespacegmtheory_1_1_n_i.html#a4c72984eaa8eaaa13fc0a8d769b5079b',1,'gmtheory::NI']]],
+  ['octave_1',['Octave',['../namespacegmtheory_1_1_n_i.html#afde4fc3b2293203dd5b48a0c6d1c454b',1,'gmtheory::NI']]],
+  ['octaves_2',['Octaves',['../namespacegmtheory.html#a7238bfdb4dbb6b287f84f5421b2ce58c',1,'gmtheory']]],
+  ['octavetransposition_3',['octaveTransposition',['../namespacegmtheory.html#a234b6ac1086162ff69c22ef7e927e70a',1,'gmtheory']]],
+  ['of_20gmtheory_4',['The Current State of GMTheory',['../index.html#autotoc_md1',1,'']]],
+  ['operator_21_3d_5',['operator!=',['../classgmtheory_1_1_g_chord.html#a4afd0d3af901aa4d18f825025b00bddd',1,'gmtheory::GChord::operator!=()'],['../classgmtheory_1_1_g_chord_template.html#a4e340967693e6f0669c287a05d5a27fb',1,'gmtheory::GChordTemplate::operator!=()']]],
+  ['operator_2b_6',['operator+',['../namespacegmtheory.html#af688f64c2f2a5e2946525749eaa421db',1,'gmtheory::operator+(const GHarmony &amp;harmony, NoteValue value)'],['../namespacegmtheory.html#a4fc242048456e60454c470822e13e170',1,'gmtheory::operator+(const GHarmony &amp;lhs, const GHarmony &amp;rhs)'],['../namespacegmtheory.html#a3e56748c9b680c4cf091500508c0b8af',1,'gmtheory::operator+(const GHarmony &amp;set, const Range &amp;range)']]],
+  ['operator_2d_7',['operator-',['../namespacegmtheory.html#a67f8f02e55228d15c300724f5f8cf090',1,'gmtheory::operator-(const GHarmony &amp;harmony, NoteValue value)'],['../namespacegmtheory.html#a92e66d4906cddbcbd302869932cf87db',1,'gmtheory::operator-(const GHarmony &amp;lhs, const GHarmony &amp;rhs)'],['../namespacegmtheory.html#a495785a711f7d584367b24a1f16c4eeb',1,'gmtheory::operator-(const GHarmony &amp;set, const Range &amp;range)']]],
+  ['operator_3c_3c_8',['operator&lt;&lt;',['../namespacegmtheory.html#a59a298f7a87cc0598837d0f49515fc03',1,'gmtheory::operator&lt;&lt;(std::ostream &amp;os, const GChordDatabase &amp;db)'],['../namespacegmtheory.html#a2a775881bab88c1996864415f467c6ce',1,'gmtheory::operator&lt;&lt;(std::ostream &amp;s, const GChord &amp;chord)'],['../namespacegmtheory.html#aef1725614d610cab4e32b1d17e63fd36',1,'gmtheory::operator&lt;&lt;(std::ostream &amp;s, const NoteNameStyle &amp;nns)']]],
+  ['operator_3c_3d_3e_9',['operator&lt;=&gt;',['../classgmtheory_1_1_g_chord.html#a5a84c10663260662212c4cd0e5bfebd2',1,'gmtheory::GChord::operator&lt;=&gt;()'],['../classgmtheory_1_1_g_chord_template.html#a4d8cbd31073115df9c42796509815128',1,'gmtheory::GChordTemplate::operator&lt;=&gt;()']]],
+  ['operator_3d_10',['operator=',['../classgmtheory_1_1_g_chord.html#a233d3d99d33cb920b2554adcab657067',1,'gmtheory::GChord::operator=(const GChord &amp;)=default'],['../classgmtheory_1_1_g_chord.html#a6456803acf76f4aabdc41c91baf9d54e',1,'gmtheory::GChord::operator=(GChord &amp;&amp;)=default']]],
+  ['operator_3d_3d_11',['operator==',['../classgmtheory_1_1_g_chord.html#a4e8df88fb62d2940d9fd16fdcb2a18bb',1,'gmtheory::GChord::operator==()'],['../classgmtheory_1_1_g_chord_template.html#a71741e54c12e9d725d3d2a59d0512ec2',1,'gmtheory::GChordTemplate::operator==()']]]
 ];

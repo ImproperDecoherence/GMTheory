@@ -28,6 +28,21 @@ namespace gmtheory {
 
 using namespace gbase;
 
+namespace BasicNoteValue {
+constexpr NoteValue C = 0;
+constexpr NoteValue Db = 1;
+constexpr NoteValue D = 2;
+constexpr NoteValue Eb = 3;
+constexpr NoteValue E = 4;
+constexpr NoteValue F = 5;
+constexpr NoteValue Gb = 6;
+constexpr NoteValue G = 7;
+constexpr NoteValue Ab = 8;
+constexpr NoteValue A = 9;
+constexpr NoteValue Bb = 10;
+constexpr NoteValue B = 11;
+}; // namespace BasicNoteValue
+
 /**
  * @brief The Signature type represents an unique value for all possible normalized harmonies.
  *

@@ -1,27 +1,5 @@
 var searchData=
 [
-  ['m13_0',['M13',['../namespacegmtheory_1_1_n_i.html#ab17125e20eba3fc46ea4ba9a2ae63be5',1,'gmtheory::NI']]],
-  ['m2_1',['M2',['../namespacegmtheory_1_1_n_i.html#a654b3ca606fa00091f5cb42efbc4b25c',1,'gmtheory::NI']]],
-  ['m2_2',['m2',['../namespacegmtheory_1_1_n_i.html#a4ea7585801c6a3a986d07200238d3da5',1,'gmtheory::NI']]],
-  ['m3_3',['M3',['../namespacegmtheory_1_1_n_i.html#a46fb02b4a57d0fa41041d47e72923e3e',1,'gmtheory::NI']]],
-  ['m3_4',['m3',['../namespacegmtheory_1_1_n_i.html#a390ac1fddc5bcbf9ce28d3d4b3391566',1,'gmtheory::NI']]],
-  ['m6_5',['M6',['../namespacegmtheory_1_1_n_i.html#a3152cbd6796056c0375f8b09f131b212',1,'gmtheory::NI']]],
-  ['m6_6',['m6',['../namespacegmtheory_1_1_n_i.html#a412bfc07a48db2ee779419ed764998ab',1,'gmtheory::NI']]],
-  ['m7_7',['M7',['../namespacegmtheory_1_1_n_i.html#a43c3811042b1b4c847f4f2608894ffd2',1,'gmtheory::NI']]],
-  ['m7_8',['m7',['../namespacegmtheory_1_1_n_i.html#a085da8f3d8c93a453d81c51f5dcfab88',1,'gmtheory::NI']]],
-  ['m9_9',['M9',['../namespacegmtheory_1_1_n_i.html#a6361f71b93eac57e07bdd90952641ebf',1,'gmtheory::NI']]],
-  ['m9_10',['m9',['../namespacegmtheory_1_1_n_i.html#ab1006d122cd759a53fa7fe946c075e13',1,'gmtheory::NI']]],
-  ['major13th_11',['Major13th',['../namespacegmtheory_1_1_n_i.html#a41e301261ca584aab1acc7105830d3b7',1,'gmtheory::NI']]],
-  ['major2nd_12',['Major2nd',['../namespacegmtheory_1_1_n_i.html#a51994e3893a91810b046b59c086e7220',1,'gmtheory::NI']]],
-  ['major3rd_13',['Major3rd',['../namespacegmtheory_1_1_n_i.html#af0e9793de36c0206c09547b4eb15e7c6',1,'gmtheory::NI']]],
-  ['major6th_14',['Major6th',['../namespacegmtheory_1_1_n_i.html#a37a8202906a37655b2bcb921a7164b1f',1,'gmtheory::NI']]],
-  ['major7_15',['Major7',['../namespacegmtheory_1_1_c_m_f.html#a3acb040c43d7df9b6de8a3d872e40831',1,'gmtheory::CMF']]],
-  ['major7th_16',['Major7th',['../namespacegmtheory_1_1_n_i.html#a75a87957895cde69217685deb43b0f81',1,'gmtheory::NI']]],
-  ['major9th_17',['Major9th',['../namespacegmtheory_1_1_n_i.html#a70e0f82426560fb7ac35da04c910a3da',1,'gmtheory::NI']]],
-  ['minor2nd_18',['minor2nd',['../namespacegmtheory_1_1_n_i.html#a511b6985eaf80e7268ee0d850c281a4e',1,'gmtheory::NI']]],
-  ['minor3rd_19',['minor3rd',['../namespacegmtheory_1_1_n_i.html#ad620e98055d3bfe7bcd92eebb89b4133',1,'gmtheory::NI']]],
-  ['minor6th_20',['minor6th',['../namespacegmtheory_1_1_n_i.html#afa6cd10ddc15377e880f6c5e34ba3d59',1,'gmtheory::NI']]],
-  ['minor7th_21',['minor7th',['../namespacegmtheory_1_1_n_i.html#af5d7e5017235c346bee53630493eb46c',1,'gmtheory::NI']]],
-  ['minor9th_22',['minor9th',['../namespacegmtheory_1_1_n_i.html#ab443b978368c47303dbb10634fae1f6f',1,'gmtheory::NI']]],
-  ['mode_23',['mode',['../structgmtheory_1_1_g_scale_template.html#a8d24f67cbc95c28a180193fb6cb794cd',1,'gmtheory::GScaleTemplate']]]
+  ['g_0',['G',['../namespacegmtheory_1_1_basic_note_value.html#a9288d8a3a8c6ad65eab6fdce8b4da658',1,'gmtheory::BasicNoteValue']]],
+  ['gb_1',['Gb',['../namespacegmtheory_1_1_basic_note_value.html#ad7c6872f720b000160af461f7c3f020a',1,'gmtheory::BasicNoteValue']]]
 ];

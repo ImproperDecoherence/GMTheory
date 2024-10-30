@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['o_0',['O',['../namespacegmtheory_1_1_n_i.html#a4c72984eaa8eaaa13fc0a8d769b5079b',1,'gmtheory::NI']]],
-  ['octave_1',['Octave',['../namespacegmtheory_1_1_n_i.html#afde4fc3b2293203dd5b48a0c6d1c454b',1,'gmtheory::NI']]]
+  ['intervals_0',['intervals',['../classgmtheory_1_1_g_chord_template.html#ae065291c3032fc6c992691ff8abaf61a',1,'gmtheory::GChordTemplate::intervals'],['../structgmtheory_1_1_g_scale_template.html#adb4c7e0c7beef13da8019fd6d87da2d0',1,'gmtheory::GScaleTemplate::intervals']]]
 ];

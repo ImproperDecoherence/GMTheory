@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['locrian_0',['Locrian',['../namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0a957b71824981a76ee8367e6684065f5d',1,'gmtheory']]],
-  ['locriannatural6_1',['LocrianNatural6',['../namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0a41c0cddf6b4a0d0af78dfcc1df5bf4d8',1,'gmtheory']]],
-  ['longname_2',['longName',['../classgmtheory_1_1_g_chord_modifier.html#a000cb618c5ff80e46a68da6190ca537b',1,'gmtheory::GChordModifier::longName()'],['../classgmtheory_1_1_g_chord.html#aca297fc0a67e4e09f37180ddf6a68a20',1,'gmtheory::GChord::longName()'],['../classgmtheory_1_1_g_chord_template.html#a9ee93605597a0c0d02b7cedab8cb7eda',1,'gmtheory::GChordTemplate::longName()']]],
-  ['lydian_3',['Lydian',['../namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0ab1cfb8d73516579a3d9e11d16377205a',1,'gmtheory']]],
-  ['lydiannatural2_4',['LydianNatural2',['../namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0a7f6cfb31f62ab857d52b0083a16260cf',1,'gmtheory']]]
+  ['inotification_0',['INotification',['../classgmtheory_1_1_g_chord_1_1_i_notification.html',1,'gmtheory::GChord']]],
+  ['intervals_1',['Notes and Intervals',['../index.html#autotoc_md3',1,'']]],
+  ['intervals_2',['intervals',['../classgmtheory_1_1_g_chord_template.html#ae065291c3032fc6c992691ff8abaf61a',1,'gmtheory::GChordTemplate::intervals'],['../structgmtheory_1_1_g_scale_template.html#adb4c7e0c7beef13da8019fd6d87da2d0',1,'gmtheory::GScaleTemplate::intervals']]],
+  ['inversion_3',['Inversion',['../namespacegmtheory.html#a2167b9133c974ade9225f18333f2346c',1,'gmtheory']]],
+  ['isdiatonic_4',['isDiatonic',['../namespacegmtheory.html#a10afac29e97d48bf7c4ca70cbe3ebfa6',1,'gmtheory::isDiatonic(const NoteName &amp;noteName)'],['../namespacegmtheory.html#af5119f3f2cda3b7e530bb7fdcbe0dfdc',1,'gmtheory::isDiatonic(const NoteValue &amp;noteValue)']]]
 ];
