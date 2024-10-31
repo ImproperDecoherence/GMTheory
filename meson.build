@@ -1,10 +1,6 @@
 project('gmtheory', 'cpp', default_options: ['cpp_std=c++23'])
 
-add_project_arguments('-std=c++23', '-fmax-errors=1', language: 'cpp')
-
-if get_option('buildtype') == 'debug'
-    add_project_arguments('-g', language: 'cpp')
-endif
+add_project_arguments('-fmax-errors=1', language: 'cpp')
 
 gmtheory_includes = include_directories('src')
 gmtheory_dep = declare_dependency(include_directories: gmtheory_includes)
