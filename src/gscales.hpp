@@ -100,7 +100,11 @@ class GScale {
      */
     template <typename Note>
     GScale(Note tonic, GScaleType scaleType)
-        : template_{ScaleTemplates.at(scaleType)}, tonic_{noteToNoteValue(tonic)} {}
+        : template_{&(ScaleTemplates.at(scaleType))}, tonic_{noteToNoteValue(tonic)} {}
+
+    GScale() = delete;
+    GScale &operator=(const GScale &) = default;
+    GScale(const GScale &) = default;
 
     /**
      * @brief Returns the note values of the scale.
@@ -120,7 +124,7 @@ class GScale {
     /**
      * @brief Returns the name of the scale, e.g. 'Natural Major'.
      */
-    constexpr String scaleName() const { return template_.name; }
+    constexpr String scaleName() const { return template_->name; }
 
     /**
      * @brief Returns the full name of the scale, including the tonic, e.g. 'C Natural Major'.
@@ -143,7 +147,7 @@ class GScale {
     /**
      * @brief Returns the number of notes of the scale.
      */
-    constexpr Size numberOfNotes() const { return static_cast<Size>(template_.intervals.size() - 1); }
+    constexpr Size numberOfNotes() const { return static_cast<Size>(template_->intervals.size() - 1); }
 
     /**
      * @brief Returns the triad chords of the scale.
@@ -151,8 +155,8 @@ class GScale {
     GVector<GChord> triadChords() const;
 
   private:
-    const GScaleTemplate &template_;
-    NoteValue tonic_;
+    const GScaleTemplate *template_{nullptr};
+    NoteValue tonic_{0};
 };
 
 } // namespace gmtheory

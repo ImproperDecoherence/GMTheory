@@ -33,7 +33,7 @@ const GDictionary<GScaleType, GScaleTemplate> ScaleTemplates = {
 };
 
 NoteValues GScale::noteValues(const NoteValue baseNoteValue, const bool includePerfectOctave) const {
-    const GScaleIntervals &templateIntervals = template_.intervals;
+    const GScaleIntervals &templateIntervals = template_->intervals;
 
     if (baseNoteValue % NI::Octave != 0) {
         GTHROW(GInvalidArgument, "baseNoteValue must be a C note: ", baseNoteValue);
@@ -46,7 +46,7 @@ NoteValues GScale::noteValues(const NoteValue baseNoteValue, const bool includeP
                    steps.begin(), diff);
 
     // Calculate step sizes between notes for template mode.
-    steps.rotate(1 - template_.mode);
+    steps.rotate(1 - template_->mode);
     if (includePerfectOctave) {
         steps += steps[0];
     }

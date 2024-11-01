@@ -30,7 +30,7 @@ void GChord::setFlags(const GChordModFlags &flags) {
 }
 
 NoteValues GChord::noteValues() const {
-    GHarmony noteValues{template_.noteValues(tonic_)};
+    GHarmony noteValues{template_->noteValues(tonic_)};
 
     // Apply chord modifications
     for (const auto &flag : modFlags_) {
@@ -81,7 +81,7 @@ String GChord::shortModName(NoteNameStyle style) const {
 };
 
 String GChord::longName(NoteNameStyle style) const {
-    String name = template_.longName(tonic_, style);
+    String name = template_->longName(tonic_, style);
 
     for (auto flag : modFlags_) {
         ChordModifiers[flag].appendLongName(name);

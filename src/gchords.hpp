@@ -110,7 +110,7 @@ class GChord {
      */
     template <typename Note, typename Mods>
     GChord(const Note &tonic, const GChordType &chordType, const Mods &modFlags)
-        : tonic_{noteToNoteValue(tonic)}, template_{ChordTemplates[chordType]} {
+        : tonic_{noteToNoteValue(tonic)}, template_{&(ChordTemplates[chordType])} {
         setFlags(modFlags);
     }
 
@@ -176,7 +176,7 @@ class GChord {
      * @param style NoteNameStyle::flat or NoteNameStyle::sharp.
      */
     constexpr String shortTypeName(NoteNameStyle style = DefaultNoteNameStyle) const {
-        return template_.shortName(tonic_, style);
+        return template_->shortName(tonic_, style);
     }
 
     /**
@@ -220,9 +220,9 @@ class GChord {
 
   private:
     NoteValue tonic_ = 0;
-    const GChordTemplate &template_;
+    const GChordTemplate *template_{nullptr};
     GChordModFlags modFlags_;
-    Inversion inversion_ = 0;
+    Inversion inversion_{0};
 };
 
 constexpr std::ostream &operator<<(std::ostream &s, const GChord &chord) {
