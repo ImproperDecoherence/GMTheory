@@ -99,13 +99,13 @@ $(function(){ initResizable(false); });
 <p>Represents a musical scale.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="gscales_8hpp_source.html">gscales.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="g__scales_8hpp_source.html">g_scales.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for gmtheory::GScale:</div>
 <div class="dyncontent">
 <div class="center"><img src="classgmtheory_1_1_g_scale__coll__graph.png" border="0" usemap="#agmtheory_1_1_g_scale_coll__map" alt="Collaboration graph"/></div>
 <map name="agmtheory_1_1_g_scale_coll__map" id="agmtheory_1_1_g_scale_coll__map">
-<area shape="rect" title="Represents a musical scale." alt="" coords="5,5,129,224"/>
+<area shape="rect" title="Represents a musical scale." alt="" coords="5,5,129,288"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -115,6 +115,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aefcbb0eb0337226e1c54c3add6cf85bf"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aefcbb0eb0337226e1c54c3add6cf85bf">GScale</a> (Note tonic, <a class="el" href="namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0">GScaleType</a> scaleType)</td></tr>
 <tr class="memdesc:aefcbb0eb0337226e1c54c3add6cf85bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new <a class="el" href="classgmtheory_1_1_g_scale.html" title="Represents a musical scale.">GScale</a> object.  <br /></td></tr>
 <tr class="separator:aefcbb0eb0337226e1c54c3add6cf85bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf450040945b2be94def45b51fd37510" id="r_acf450040945b2be94def45b51fd37510"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf450040945b2be94def45b51fd37510">GScale</a> ()=delete</td></tr>
+<tr class="separator:acf450040945b2be94def45b51fd37510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee72308389de2597449b6d40dc2aff4" id="r_a3ee72308389de2597449b6d40dc2aff4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgmtheory_1_1_g_scale.html">GScale</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ee72308389de2597449b6d40dc2aff4">operator=</a> (const <a class="el" href="classgmtheory_1_1_g_scale.html">GScale</a> &amp;)=default</td></tr>
+<tr class="separator:a3ee72308389de2597449b6d40dc2aff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e88ce3b0a02083d5900ef0a513a6dd" id="r_ab6e88ce3b0a02083d5900ef0a513a6dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6e88ce3b0a02083d5900ef0a513a6dd">GScale</a> (const <a class="el" href="classgmtheory_1_1_g_scale.html">GScale</a> &amp;)=default</td></tr>
+<tr class="separator:ab6e88ce3b0a02083d5900ef0a513a6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b429d633a6da8bd02a66cc3e1199d0d" id="r_a9b429d633a6da8bd02a66cc3e1199d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegmtheory.html#ae9ea4f469431b52e9e776e8524ea2c41">NoteValues</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b429d633a6da8bd02a66cc3e1199d0d">noteValues</a> (<a class="el" href="namespacegmtheory.html#aa376af897ba89c1f7f5a657fb39ffd29">NoteValue</a> <a class="el" href="namespacegmtheory.html#a4f51f2345fb997538a1cdff6fdae3721">baseNoteValue</a>=0, bool includePerfectOctave=false) const</td></tr>
 <tr class="memdesc:a9b429d633a6da8bd02a66cc3e1199d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the note values of the scale.  <br /></td></tr>
 <tr class="separator:a9b429d633a6da8bd02a66cc3e1199d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>Represents a musical scale. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aefcbb0eb0337226e1c54c3add6cf85bf" name="aefcbb0eb0337226e1c54c3add6cf85bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefcbb0eb0337226e1c54c3add6cf85bf">&#9670;&#160;</a></span>GScale()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aefcbb0eb0337226e1c54c3add6cf85bf">&#9670;&#160;</a></span>GScale() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -185,10 +191,60 @@ template&lt;typename Note &gt; </div>
   </dd>
 </dl>
 <p>Example usage: </p><div class="fragment"><div class="line"><span class="keyword">const</span> <a class="code hl_class" href="classgmtheory_1_1_g_scale.html">GScale</a> scaleDdorian{<a class="code hl_typedef" href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733">NoteName</a>(<span class="stringliteral">&quot;D&quot;</span>), <a class="code hl_enumvalue" href="namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0ab8dd79e4a88047dee0f3bf56dcb37ca8">GScaleType::Dorian</a>};</div>
-<div class="ttc" id="aclassgmtheory_1_1_g_scale_html"><div class="ttname"><a href="classgmtheory_1_1_g_scale.html">gmtheory::GScale</a></div><div class="ttdoc">Represents a musical scale.</div><div class="ttdef"><b>Definition</b> gscales.hpp:86</div></div>
-<div class="ttc" id="anamespacegmtheory_html_a746c4462e5f24fdf21d1d56e0d30f733"><div class="ttname"><a href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733">gmtheory::NoteName</a></div><div class="ttdeci">gbase::String NoteName</div><div class="ttdoc">Note names are represented by strings, e.g. 'C', 'Db', etc. The octave of a note can be indicated as ...</div><div class="ttdef"><b>Definition</b> gnoteintervals.hpp:41</div></div>
+<div class="ttc" id="aclassgmtheory_1_1_g_scale_html"><div class="ttname"><a href="classgmtheory_1_1_g_scale.html">gmtheory::GScale</a></div><div class="ttdoc">Represents a musical scale.</div><div class="ttdef"><b>Definition</b> g_scales.hpp:86</div></div>
+<div class="ttc" id="anamespacegmtheory_html_a746c4462e5f24fdf21d1d56e0d30f733"><div class="ttname"><a href="namespacegmtheory.html#a746c4462e5f24fdf21d1d56e0d30f733">gmtheory::NoteName</a></div><div class="ttdeci">gbase::String NoteName</div><div class="ttdoc">Note names are represented by strings, e.g. 'C', 'Db', etc. The octave of a note can be indicated as ...</div><div class="ttdef"><b>Definition</b> g_note_intervals.hpp:41</div></div>
 <div class="ttc" id="anamespacegmtheory_html_ad2da07f32aab67bd59dbf78c1784f8e0ab8dd79e4a88047dee0f3bf56dcb37ca8"><div class="ttname"><a href="namespacegmtheory.html#ad2da07f32aab67bd59dbf78c1784f8e0ab8dd79e4a88047dee0f3bf56dcb37ca8">gmtheory::GScaleType::Dorian</a></div><div class="ttdeci">@ Dorian</div></div>
 </div><!-- fragment --> 
+</div>
+</div>
+<a id="acf450040945b2be94def45b51fd37510" name="acf450040945b2be94def45b51fd37510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf450040945b2be94def45b51fd37510">&#9670;&#160;</a></span>GScale() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gmtheory::GScale::GScale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab6e88ce3b0a02083d5900ef0a513a6dd" name="ab6e88ce3b0a02083d5900ef0a513a6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e88ce3b0a02083d5900ef0a513a6dd">&#9670;&#160;</a></span>GScale() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gmtheory::GScale::GScale </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgmtheory_1_1_g_scale.html">GScale</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -311,6 +367,31 @@ template&lt;RangeOfNoteValues Range&gt; </div>
 
 </div>
 </div>
+<a id="a3ee72308389de2597449b6d40dc2aff4" name="a3ee72308389de2597449b6d40dc2aff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ee72308389de2597449b6d40dc2aff4">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgmtheory_1_1_g_scale.html">GScale</a> &amp; gmtheory::GScale::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgmtheory_1_1_g_scale.html">GScale</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae4d918a86c247a4d29b28567722a24fd" name="ae4d918a86c247a4d29b28567722a24fd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4d918a86c247a4d29b28567722a24fd">&#9670;&#160;</a></span>scaleName()</h2>
 
@@ -385,8 +466,8 @@ template&lt;RangeOfNoteValues Range&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>src/<a class="el" href="gscales_8hpp_source.html">gscales.hpp</a></li>
-<li>src/<a class="el" href="gscales_8cpp.html">gscales.cpp</a></li>
+<li>src/<a class="el" href="g__scales_8hpp_source.html">g_scales.hpp</a></li>
+<li>src/<a class="el" href="g__scales_8cpp.html">g_scales.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

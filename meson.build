@@ -18,13 +18,13 @@ gbase_dep = gbase_proj.get_variable('gbase_dep')
 # LIBRARY
 
 gmtheory_sources = [
-    'src/gchorddatabase.cpp',
-    'src/gchordmodifiers.cpp',
-    'src/gchords.cpp',
-    'src/gnoteintervals.cpp',
-    'src/gnotes.cpp',
-    'src/gscaledegrees.cpp',
-    'src/gscales.cpp',
+    'src/g_chord_database.cpp',
+    'src/g_chord_modifiers.cpp',
+    'src/g_chords.cpp',
+    'src/g_note_intervals.cpp',
+    'src/g_notes.cpp',
+    'src/g_scale_degrees.cpp',
+    'src/g_scales.cpp',
 ]
 
 gmtheory_lib = static_library(
@@ -40,17 +40,17 @@ gmtheory_dep = declare_dependency(link_with: gmtheory_lib, include_directories: 
 # TEST
 
 test_sources = [
-    'test/gchordtest.cpp',
-    'test/gchorddatabasetest.cpp',
-    'test/gharmonytest.cpp',
-    'test/gnotestest.cpp',
-    'test/gscaletest.cpp',
-    'test/noteintervalstest.cpp',
+    'test/g_chords_test.cpp',
+    'test/g_chord_database_test.cpp',
+    'test/g_harmony_test.cpp',
+    'test/g_notes_test.cpp',
+    'test/g_scales_test.cpp',
+    'test/g_note_intervals_test.cpp',
 ]
 
 executable(
-    'runtests',
-    'test/runtests.cpp',
+    'run_tests',
+    'test/run_tests.cpp',
     test_sources,
     dependencies: [gtest_dep, gbase_dep],
     include_directories: [gmtheory_includes],

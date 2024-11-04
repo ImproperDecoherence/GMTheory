@@ -1,0 +1,45 @@
+<map id="src/g_notes.cpp" name="src/g_notes.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,5,271,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="29,80,82,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,35,98,76,96,71,185,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="106,80,226,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,34,185,69,181,66,204,31"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="18,155,141,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,31,244,67,247,88,240,108,226,121,203,133,146,152,144,147,201,128,223,116,236,105,242,88,239,68,221,33"/>
+<area shape="rect" id="Node000005" href="$g__notes_8hpp.html" title="Defines note names and basic operations on note values and note names." alt="" coords="441,80,534,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="262,30,427,73,425,78,261,35"/>
+<area shape="poly" id="edge10_Node000005_Node000004" title=" " alt="" coords="441,106,157,156,156,150,440,100"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="849,155,923,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="534,99,665,120,834,152,833,157,664,125,534,104"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="948,155,1008,181"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="535,96,706,115,818,131,933,152,932,157,817,136,706,120,534,101"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1033,155,1107,181"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="534,95,740,114,876,130,1018,152,1017,157,876,136,740,119,534,101"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,229,66,256"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="442,103,331,121,265,137,202,157,178,169,154,184,75,224,73,220,152,179,175,165,200,152,264,132,329,116,441,97"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="90,229,144,256"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="442,105,353,124,304,139,255,157,196,189,146,222,144,218,193,184,253,152,302,134,352,119,440,100"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="482,155,578,181"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="497,106,517,140,513,143,493,109"/>
+<area shape="rect" id="Node000012" href="$g__note__intervals_8hpp.html" title="Defines the most basic relations of music theory." alt="" coords="266,155,408,181"/>
+<area shape="poly" id="edge12_Node000005_Node000012" title=" " alt="" coords="462,110,378,150,376,145,460,105"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="758,229,854,256"/>
+<area shape="poly" id="edge23_Node000005_Node000018" title=" " alt="" coords="482,108,467,144,465,163,472,180,491,193,518,204,591,216,743,227,743,232,591,221,517,209,488,198,468,183,460,164,461,142,477,106"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="602,155,680,181"/>
+<area shape="poly" id="edge21_Node000005_Node000019" title=" " alt="" coords="515,105,601,145,599,150,513,110"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="705,155,825,181"/>
+<area shape="poly" id="edge22_Node000005_Node000020" title=" " alt="" coords="535,104,703,148,701,153,533,109"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="280,185,81,231,80,226,279,179"/>
+<area shape="poly" id="edge15_Node000012_Node000010" title=" " alt="" coords="299,184,159,230,157,225,298,179"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="314,229,360,256"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="340,182,340,214,334,214,334,182"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="384,229,442,256"/>
+<area shape="poly" id="edge16_Node000012_Node000014" title=" " alt="" coords="352,180,391,217,387,221,348,184"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="465,229,595,256"/>
+<area shape="poly" id="edge17_Node000012_Node000015" title=" " alt="" coords="371,179,483,221,481,226,370,184"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="619,229,734,256"/>
+<area shape="poly" id="edge18_Node000012_Node000016" title=" " alt="" coords="397,179,605,223,604,229,396,185"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="168,229,290,256"/>
+<area shape="poly" id="edge19_Node000012_Node000017" title=" " alt="" coords="320,184,262,222,259,218,317,180"/>
+<area shape="poly" id="edge20_Node000012_Node000018" title=" " alt="" coords="408,177,743,226,743,232,408,182"/>
+</map>

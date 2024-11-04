@@ -11,7 +11,7 @@ var searchData=
   ['settonic_8',['setTonic',['../classgmtheory_1_1_g_chord.html#a8ec07e7895931abb4a85476a4a2e0a88',1,'gmtheory::GChord']]],
   ['sharp_9',['sharp',['../namespacegmtheory.html#afb90ddd39d4898aea4a924ee566123a1aa557264a7d6c783f6fb57fb7d0b9d6b0',1,'gmtheory']]],
   ['shortmodname_10',['shortModName',['../classgmtheory_1_1_g_chord.html#aa34ad468a7156621bde69a8893304b75',1,'gmtheory::GChord']]],
-  ['shortname_11',['shortName',['../classgmtheory_1_1_g_chord_modifier.html#a8cd7ab6857a5d4bba2ea9fb2736a217d',1,'gmtheory::GChordModifier::shortName()'],['../classgmtheory_1_1_g_chord.html#a13d1ba4b9313de5430bab0980e9f180f',1,'gmtheory::GChord::shortName()'],['../classgmtheory_1_1_g_chord_template.html#a282d80fd8746acc0e874fddc07f17ce1',1,'gmtheory::GChordTemplate::shortName()']]],
+  ['shortname_11',['shortName',['../classgmtheory_1_1_g_chord_modifier.html#a8cd7ab6857a5d4bba2ea9fb2736a217d',1,'gmtheory::GChordModifier::shortName()'],['../classgmtheory_1_1_g_chord_template.html#a282d80fd8746acc0e874fddc07f17ce1',1,'gmtheory::GChordTemplate::shortName()'],['../classgmtheory_1_1_g_chord.html#a13d1ba4b9313de5430bab0980e9f180f',1,'gmtheory::GChord::shortName(NoteNameStyle style=DefaultNoteNameStyle) const']]],
   ['shorttypename_12',['shortTypeName',['../classgmtheory_1_1_g_chord.html#a44b98d6b4754e7965f2552af3a7206ff',1,'gmtheory::GChord']]],
   ['signature_13',['Signature',['../namespacegmtheory.html#a5dc6d24004b08e79064445f261a81774',1,'gmtheory']]],
   ['signature_14',['signature',['../namespacegmtheory.html#ae7e689a7ecda5c8081604695dc30787b',1,'gmtheory']]],
