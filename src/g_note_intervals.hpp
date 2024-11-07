@@ -29,6 +29,8 @@ namespace gmtheory {
  */
 using NoteValue = gbase::Integer;
 
+constexpr NoteValue NoNoteValue = -1;
+
 /**
  * @brief Note intervals are represented as number of semitone steps.
  */
