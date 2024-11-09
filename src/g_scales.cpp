@@ -83,4 +83,10 @@ GVector<GChord> GScale::triadChords() const {
     return results;
 }
 
+void GScale::print(std::ostream &target) const {
+    target << "GScale" << "{ ";
+    target << this->name() << " | " << NoteNames{noteValues() | noteValueToNoteName()};
+    target << " }";
+}
+
 } // namespace gmtheory

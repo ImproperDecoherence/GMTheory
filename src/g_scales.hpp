@@ -106,6 +106,9 @@ class GScale {
     GScale &operator=(const GScale &) = default;
     GScale(const GScale &) = default;
 
+    bool operator==(const GScale &) const = default;
+    bool operator!=(const GScale &) const = default;
+
     /**
      * @brief Returns the note values of the scale.
      *
@@ -154,9 +157,19 @@ class GScale {
      */
     GVector<GChord> triadChords() const;
 
+    /**
+     * @brief Prints a textual representsion of the scale state.
+     */
+    void print(std::ostream &target) const;
+
   private:
     const GScaleTemplate *template_{nullptr};
     NoteValue tonic_{0};
 };
+
+constexpr std::ostream &operator<<(std::ostream &s, const GScale &scale) {
+    scale.print(s);
+    return s;
+}
 
 } // namespace gmtheory
