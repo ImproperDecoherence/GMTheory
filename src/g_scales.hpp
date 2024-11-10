@@ -117,7 +117,7 @@ class GScale {
      * @param includePerfectOctave Defines if the perfect octave shall be included (i.e. the C1 note in a
      * C-scale starting at C0).
      */
-    NoteValues noteValues(NoteValue baseNoteValue = 0, bool includePerfectOctave = false) const;
+    GHarmony noteValues(NoteValue baseNoteValue = 0, bool includePerfectOctave = false) const;
 
     /**
      * @brief Returns the tonic note value of the scale.
@@ -156,6 +156,8 @@ class GScale {
      * @brief Returns the triad chords of the scale.
      */
     GVector<GChord> triadChords() const;
+
+    NoteName noteNameInScale(NoteValue) const;
 
     /**
      * @brief Prints a textual representsion of the scale state.

@@ -1,4 +1,5 @@
 #include <numeric>
+#include <string>
 
 #include "g_chords.hpp"
 #include "g_enumerate.hpp"
@@ -32,7 +33,7 @@ const GDictionary<GScaleType, GScaleTemplate> ScaleTemplates = {
     // clang-format on
 };
 
-NoteValues GScale::noteValues(const NoteValue baseNoteValue, const bool includePerfectOctave) const {
+GHarmony GScale::noteValues(const NoteValue baseNoteValue, const bool includePerfectOctave) const {
     const GScaleIntervals &templateIntervals = template_->intervals;
 
     if (baseNoteValue % NI::Octave != 0) {
@@ -56,12 +57,13 @@ NoteValues GScale::noteValues(const NoteValue baseNoteValue, const bool includeP
     std::exclusive_scan(steps.begin(), steps.end(), modeIntervals.begin(), 0);
 
     // Transpose to the key of the scale.
-    return NoteValues(modeIntervals | transpose(tonic_ + baseNoteValue));
+    return GHarmony(modeIntervals | transpose(tonic_ + baseNoteValue));
 }
 
 GVector<GChord> GScale::triadChords() const {
     GVector<GChord> results;
-    const NoteValues scaleNoteValues = noteValues() + NoteValues{noteValues() | transpose(NI::Octave)};
+    const NoteValues scaleNoteValues =
+        NoteValues{noteValues()} + NoteValues{noteValues() | transpose(NI::Octave)};
 
     for (const auto i : std::views::iota(Size{0}, numberOfNotes())) {
         const NoteValues chordNoteValues = {scaleNoteValues[i + GScaleDegree::Tonic],
@@ -81,6 +83,28 @@ GVector<GChord> GScale::triadChords() const {
     }
 
     return results;
+}
+
+NoteName GScale::noteNameInScale(NoteValue noteValue) const {
+    const auto sharp = (noteValue - 1) % NI::Octave;
+    const auto inScale = (noteValue + 0) % NI::Octave;
+    const auto flat = (noteValue + 1) % NI::Octave;
+
+    GHarmony normalizedScaleNoteValues{noteValues() | normalize};
+
+    if (normalizedScaleNoteValues.contains(inScale)) {
+        return std::to_string(normalizedScaleNoteValues.distance(inScale));
+    }
+
+    if (normalizedScaleNoteValues.contains(flat)) {
+        return String("b") + std::to_string(normalizedScaleNoteValues.distance(flat));
+    }
+
+    if (normalizedScaleNoteValues.contains(sharp)) {
+        return String("#") + std::to_string(normalizedScaleNoteValues.distance(sharp));
+    }
+
+    return String("?");
 }
 
 void GScale::print(std::ostream &target) const {
