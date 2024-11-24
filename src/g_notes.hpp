@@ -303,6 +303,9 @@ constexpr bool isDiatonic(const NoteName &noteName) {
  */
 constexpr bool isDiatonic(const NoteValue &noteValue) { return isDiatonic(noteName(noteValue)); }
 
+constexpr auto diatonicNoteValues =
+    std::ranges::views::filter([](NoteValue noteValue) { return isDiatonic(noteValue); });
+
 /**
  * @brief Finds the C-note base value for given note values.
  *
