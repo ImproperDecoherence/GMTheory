@@ -148,6 +148,11 @@ class GScale {
     }
 
     /**
+     * @brief Checks if a given note belongs to the scale.
+     */
+    constexpr bool contains(NoteValue noteValue) const { return contains(GHarmony{noteValue}); }
+
+    /**
      * @brief Returns the number of notes of the scale.
      */
     constexpr Size numberOfNotes() const { return static_cast<Size>(template_->intervals.size() - 1); }
