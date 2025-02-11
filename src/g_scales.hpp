@@ -125,6 +125,11 @@ class GScale {
     constexpr NoteValue tonicNoteValue() const { return tonic_; }
 
     /**
+     * @brief Sets the tonic note value of the scale.
+     */
+    constexpr void setTonicNoteValue(NoteValue tonic) { tonic_ = tonic; }
+
+    /**
      * @brief Returns the name of the scale, e.g. 'Natural Major'.
      */
     constexpr String scaleName() const { return template_->name; }
