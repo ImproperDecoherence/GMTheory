@@ -58,6 +58,8 @@ class GChordTemplate {
         return noteName(tonic, style, showOctave) + shortName_;
     }
 
+    constexpr String postFix() const { return shortName_; }
+
     /**
      * @brief Returns the long name of the chord type.
      *
