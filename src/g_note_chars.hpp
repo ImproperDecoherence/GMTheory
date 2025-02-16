@@ -22,7 +22,7 @@ namespace GNoteChar {
 /**
  * @brief The 'degeee' symbol used for diminished chords.
  */
-constexpr String Dim = "\u00B0C";
+constexpr String Dim = "\u00B0";
 
 } // namespace GNoteChar
 
